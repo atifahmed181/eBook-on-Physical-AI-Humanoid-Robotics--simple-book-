@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://atifahmed181.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ebook-physical-ai-humanoid-robotics',
+  baseUrl: '/eBook-on-Physical-AI-Humanoid-Robotics--simple-book-/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'your-organization', // Usually your GitHub org/user name.
-  projectName: 'ebook-physical-ai-humanoid-robotics', // Usually your repo name.
+  projectName: 'eBook-on-Physical-AI-Humanoid-Robotics--simple-book-', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
