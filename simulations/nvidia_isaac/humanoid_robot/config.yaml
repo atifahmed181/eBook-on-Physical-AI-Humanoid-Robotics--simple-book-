@@ -1,0 +1,84 @@
+# Isaac Sim configuration for humanoid robot simulation
+# config.yaml
+
+# Application settings
+app:
+  window_width: 1280
+  window_height: 720
+  enable_viewport: true
+  rendering_device: "gpu"
+  multi_gpu_mode: false
+
+# Isaac Sim settings
+isaac:
+  # Physics settings
+  physics:
+    solver_type: "TGS"  # TGS or PBD
+    substeps: 4
+    dt: 0.008333  # 1/120 second
+    
+  # Rendering settings
+  rendering:
+    enable_living_color: true
+    max_gpu_sim_frames: 64
+    
+  # Simulation settings
+  simulation:
+    stage_units_in_meters: 1.0
+    rendering_frequency: 60
+    physics_frequency: 60
+
+# Robot specific configurations
+robot:
+  urdf_path: "/assets/robots/humanoid.urdf"
+  default_position: [0, 0, 1.0]
+  default_orientation: [0, 0, 0, 1]  # [x, y, z, w] quaternion
+
+# Environment settings
+environment:
+  # Ground plane settings
+  ground_plane:
+    enabled: true
+    size: 100.0
+    position: [0, 0, 0]
+    color: [0.2, 0.2, 0.2]
+    
+  # Lighting settings
+  lighting:
+    dome_light:
+      intensity: 3000
+      color: [1.0, 1.0, 1.0]
+      enabled: true
+
+# Sensors configuration
+sensors:
+  rgb_camera:
+    enabled: true
+    position: [0.2, 0, 1.6]  # Head-level position
+    orientation: [0, 0, 0, 1]
+    resolution: [640, 480]
+    fov: 60
+    frequency: 30
+    
+  depth_camera:
+    enabled: true
+    position: [0.2, 0, 1.6]
+    orientation: [0, 0, 0, 1]
+    resolution: [640, 480]
+    fov: 60
+    frequency: 30
+    
+  imu:
+    enabled: true
+    position: [0, 0, 0.8]  # Torso-level
+    frequency: 100
+    
+  lidar:
+    enabled: true
+    position: [0.2, 0, 1.5]
+    orientation: [0, 0, 0, 1]
+    samples: 720
+    min_angle: -2.35619  # -135 degrees
+    max_angle: 2.35619   # 135 degrees
+    max_range: 20.0
+    frequency: 10

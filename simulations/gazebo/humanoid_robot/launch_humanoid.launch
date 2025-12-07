@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Start Gazebo with the humanoid world -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find humanoid_robot)/worlds/humanoid_world.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <!-- Spawn the humanoid robot in the simulation -->
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model simple_humanoid -x 0 -y 0 -z 1" />
+
+  <!-- Load the robot description parameter -->
+  <param name="robot_description" command="$(find xacro)/xacro.py $(find humanoid_robot)/urdf/simple_humanoid.urdf" />
+</launch>

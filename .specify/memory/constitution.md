@@ -1,55 +1,59 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 0.0.0 → 1.0.0
+- Added sections: Vision, Success Criteria, Constraints, Stakeholders, Brand Voice
+- Templates requiring updates:
+  - ✅ .specify/templates/plan-template.md
+  - ✅ .specify/templates/spec-template.md
+  - ✅ .specify/templates/tasks-template.md
+-->
+# EBook on Physical AI and Humanoid Robotics Constitution
+
+## Vision
+
+To create a comprehensive, hands-on guide for beginners and intermediate learners to understand and build physical AI and humanoid robotics, using Docusaurus for an interactive and accessible learning experience.
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Beginner-Focused & Hands-On
+The content must be tailored for beginners to intermediates, prioritizing practical, hands-on exercises over theoretical discussions. Every concept should be accompanied by a practical example or a step-by-step tutorial.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Accessible & Interactive Learning
+Leverage Docusaurus to its full potential to create an interactive and engaging learning experience. This includes embedded code snippets, videos, and interactive diagrams. The platform must be accessible and easy to navigate.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Clear & Consistent Brand Voice
+Maintain a consistent brand voice that is encouraging, informative, and approachable. The tone should be that of a knowledgeable mentor guiding the reader through their learning journey.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Open & Collaborative
+The project is open to contributions and feedback. The development process will be transparent, and we will actively engage with the community to improve the content.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+## Success Criteria
 
-### [PRINCIPLE_6_NAME]
+- Positive reader feedback indicating the content is clear, helpful, and engaging.
+- High engagement metrics on the Docusaurus platform (e.g., time on page, completion rates of tutorials).
+- Community contributions in the form of corrections, suggestions, and new content.
 
+## Constraints, Stakeholders, and Brand Voice
 
-[PRINCIPLE__DESCRIPTION]
+### Constraints
+- **Tech Stack:** The project must use Docusaurus for documentation and deployment.
+- **Target Audience:** Content must remain accessible to beginners and intermediates in the field of AI and robotics.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Stakeholders
+- **Primary Author(s)/Maintainer(s):** Responsible for content creation and project management.
+- **Readers/Learners:** The primary audience for the ebook.
+- **Community Contributors:** Individuals who provide feedback, corrections, or new content.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Brand Voice
+The brand voice must be:
+- **Informative:** Clear, accurate, and educational.
+- **Encouraging:** Supportive and motivating for learners.
+- **Approachable:** Friendly, and easy to understand, avoiding overly technical jargon where possible.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+- This constitution is the guiding document for the project.
+- All content and contributions must align with the principles outlined in this document.
+- Amendments to this constitution require discussion and agreement among the primary stakeholders.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-07 | **Last Amended**: 2025-12-07
