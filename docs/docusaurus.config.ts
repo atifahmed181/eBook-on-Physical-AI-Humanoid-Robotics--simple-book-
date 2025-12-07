@@ -15,26 +15,18 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://atifahmed181.github.io',
+  url: 'https://atifahmed181.github.io', // For GitHub Pages
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/eBook-on-Physical-AI-Humanoid-Robotics--simple-book-/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-organization', // Usually your GitHub org/user name.
-  projectName: 'eBook-on-Physical-AI-Humanoid-Robotics--simple-book-', // Usually your repo name.
+  organizationName: 'atifahmed181', // Usually your GitHub org/user name.
+  projectName: 'eBook-on-Physical-AI-Humanoid-Robotics--simple-book-',  // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  markdown: {
-    mermaid: true,
-    mdx1Compat: {
-      comments: true,
-      admonitions: true,
-      headingIds: true,
-    },
-  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -53,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-organization/ebook-physical-ai-humanoid-robotics/edit/main/docs/',
+            'https://github.com/atifahmed181/eBook-on-Physical-AI-Humanoid-Robotics--simple-book-/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
@@ -64,7 +56,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-organization/ebook-physical-ai-humanoid-robotics/edit/main/docs/',
+            'https://github.com/atifahmed181/eBook-on-Physical-AI-Humanoid-Robotics--simple-book-/edit/main/docs/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -98,7 +90,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/your-organization/ebook-physical-ai-humanoid-robotics',
+          href: 'https://github.com/atifahmed181/eBook-on-Physical-AI-Humanoid-Robotics--simple-book-/edit/main/docs/',
           label: 'GitHub',
           position: 'right',
         },
@@ -158,7 +150,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/your-organization/ebook-physical-ai-humanoid-robotics',
+              href: 'https://github.com/atifahmed181/eBook-on-Physical-AI-Humanoid-Robotics--simple-book-/edit/main/docs/',
             },
           ],
         },
