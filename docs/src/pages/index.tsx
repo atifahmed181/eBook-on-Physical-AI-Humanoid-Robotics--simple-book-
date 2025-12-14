@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/module1-ros2/">
-            Start reading
+            Start reading 📚
           </Link>
         </div>
       </div>
