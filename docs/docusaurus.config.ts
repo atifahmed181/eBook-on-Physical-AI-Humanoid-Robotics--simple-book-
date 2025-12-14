@@ -15,15 +15,13 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://atifahmed181.github.io', // For GitHub Pages
+  url: 'https://e-book-on-physical-ai-git-eb9bba-atif-ahmeds-projects-794cf321.vercel.app', // Updated for Vercel deployment
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/eBook-on-Physical-AI-Humanoid-Robotics--simple-book-/',
+  baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'atifahmed181', // Usually your GitHub org/user name.
-  projectName: 'eBook-on-Physical-AI-Humanoid-Robotics--simple-book-',  // Usually your repo name.
+  // For GitHub pages deployment, uncomment these fields.
+  // organizationName: 'atifahmed181', // Usually your GitHub org/user name.
+  // projectName: 'eBook-on-Physical-AI-Humanoid-Robotics--simple-book-',  // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
