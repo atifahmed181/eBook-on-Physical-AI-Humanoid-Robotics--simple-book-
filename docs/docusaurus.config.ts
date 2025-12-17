@@ -67,6 +67,21 @@ const config: Config = {
     ],
   ],
 
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'text/javascript',
+      },
+      innerHTML: `
+        (function() {
+          window.API_CONFIG = {
+            BACKEND_URL: 'http://localhost:8000'  // You can change this to your backend URL
+          };
+        })();
+      `,
+    },
+  ],
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -86,6 +101,7 @@ const config: Config = {
           position: 'left',
           label: 'Ebook',
         },
+        {to: '/chatbot', label: 'AI Assistant', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/atifahmed181/eBook-on-Physical-AI-Humanoid-Robotics--simple-book-/edit/main/docs/',
